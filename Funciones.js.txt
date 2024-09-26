@@ -1,0 +1,35 @@
+// 1. Función que recibe un string y lo retorna en mayúsculas
+function convertirMayusculas(texto) {
+    return texto.toUpperCase();
+}
+console.log(convertirMayusculas("hola mundo")); // "HOLA MUNDO"
+
+// 2. Función que recibe un string y lo retorna en minúsculas
+function convertirMinusculas(texto) {
+    return texto.toLowerCase();
+}
+console.log(convertirMinusculas("HOLA MUNDO")); // "hola mundo"
+
+// 3. Función que recibe como parámetro 2 números y los resta
+function restar(n1, n2) {
+    return n1 - n2;
+}
+console.log(restar(10, 5)); // 5
+
+// 4. Función que recibe como parámetro 2 números y los divide
+function dividir(n1, n2) {
+    return n1 / n2;
+}
+console.log(dividir(10, 2)); // 5
+
+// 5. Función que recibe como parámetro 2 números y los multiplica
+function multiplicar(n1, n2) {
+    return n1 * n2;
+}
+console.log(multiplicar(10, 5)); // 50
+
+// 6. Función que recibe un string y devuelve la longitud del string
+function longitudTexto(texto) {
+    return texto.length;
+}
+console.log(longitudTexto("hola mundo")); // 10

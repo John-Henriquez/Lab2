@@ -1,0 +1,23 @@
+// Declaración de las variables
+let numero1 = 10;
+let numero2 = 5;
+
+// 1. Suma (+)
+let suma = numero1 + numero2;
+console.log("Suma:", suma); // Muestra el resultado de la suma
+
+// 2. Resta (-)
+let resta = numero1 - numero2;
+console.log("Resta:", resta); // Muestra el resultado de la resta
+
+// 3. Multiplicación (*)
+let multiplicacion = numero1 * numero2;
+console.log("Multiplicación:", multiplicacion); // Muestra el resultado de la multiplicación
+
+// 4. División (/)
+let division = numero1 / numero2;
+console.log("División:", division); // Muestra el resultado de la división
+
+// 5. Módulo (%)
+let modulo = numero1 % numero2;
+console.log("Módulo:", modulo); // Muestra el resultado del módulo

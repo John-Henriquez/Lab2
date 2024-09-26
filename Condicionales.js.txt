@@ -1,0 +1,30 @@
+// Declaración de las variables
+let numero1 = 10;
+let numero2 = 5;
+let numero3 = 15;
+
+// 1. Imprimir en consola el número mayor de los tres
+let mayor = Math.max(numero1, numero2, numero3);
+console.log("El número mayor es:", mayor);
+
+// 2. Imprimir en consola el número menor de los tres
+let menor = Math.min(numero1, numero2, numero3);
+console.log("El número menor es:", menor);
+
+// 3. Imprimir en consola si el numero1 es par o impar
+console.log("¿numero1 es par?", numero1 % 2 === 0 ? "Par" : "Impar");
+
+// 4. Imprimir en consola si el numero2 es par o impar
+console.log("¿numero2 es par?", numero2 % 2 === 0 ? "Par" : "Impar");
+
+// 5. Imprimir en consola si el numero3 es par o impar
+console.log("¿numero3 es par?", numero3 % 2 === 0 ? "Par" : "Impar");
+
+// 6. Imprimir en consola si el numero1 es múltiplo de 5
+console.log("¿numero1 es múltiplo de 5?", numero1 % 5 === 0 ? "Sí" : "No");
+
+// 7. Imprimir en consola si el numero2 es múltiplo de 5
+console.log("¿numero2 es múltiplo de 5?", numero2 % 5 === 0 ? "Sí" : "No");
+
+// 8. Imprimir en consola si el numero3 es múltiplo de 5
+console.log("¿numero3 es múltiplo de 5?", numero3 % 5 === 0 ? "Sí" : "No");

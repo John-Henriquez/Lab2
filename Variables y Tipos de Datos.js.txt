@@ -1,0 +1,18 @@
+// 1. Declara una variable llamada `nombre` y asígnale un valor de tipo `string`.
+let nombre = "John";
+
+// 2. Declara una variable llamada `edad` y asígnale un valor de tipo `number`.
+let edad = 22;
+
+// 3. Declara una variable llamada `puedoConducir` y asígnale un valor de tipo `boolean`.
+let puedoConducir = true;
+
+// 4. Imprime por consola el valor de cada variable.
+console.log("Nombre:", nombre);
+console.log("Edad:", edad);
+console.log("¿Puedo conducir?", puedoConducir);
+
+// 5. Imprime el tipo de dato de cada variable.
+console.log("Tipo de dato de nombre:", typeof nombre);
+console.log("Tipo de dato de edad:", typeof edad);
+console.log("Tipo de dato de puedoConducir:", typeof puedoConducir);
